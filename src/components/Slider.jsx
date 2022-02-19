@@ -1,7 +1,6 @@
 import { useState } from "react";
 import styled from "styled-components";
 import { ArrowLeftOutlined, ArrowRightOutlined } from "@material-ui/icons";
-import { sliderItems } from "../data";
 
 const Container = styled.div`
   width: 100%;
@@ -54,7 +53,7 @@ const Image = styled.img`
 const InfoContainer = styled.div`
   padding: 0 15px;
   background-color: black;
-  opacity: 0.5;
+  opacity: 0.6;
   height: 50%;
   margin-top: 0;
   color: white;
@@ -119,18 +118,6 @@ const Slider = () => {
         <ArrowLeftOutlined />
       </Arrow>
       <Wrapper slideIndex={slideIndex}>
-        {/* {sliderItems.map((item) => (
-          <Slide>
-            <ImgContainer>
-              <Image src={item.img} />
-            </ImgContainer>
-            <InfoContainer>
-              <Title>{item.title}</Title>
-              <Desc>{item.desc}</Desc>
-              <Button>GO SHOPPING</Button>
-            </InfoContainer>
-          </Slide>
-        ))} */}
         <Slide>
           <ImgContainer>
             <Image src="../../img/slider1.jpg" />
@@ -148,7 +135,7 @@ const Slider = () => {
         </Slide>
         <Slide>
           <ImgContainer>
-            <Image src="../../img/slider4.jpg" />
+            <Image src="../../img/slider3.jpg" />
           </ImgContainer>
         </Slide>
       </Wrapper>

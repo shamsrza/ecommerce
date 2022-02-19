@@ -1,20 +1,17 @@
-export const sliderItems = [
+export const categories = [
   {
     id: 1,
-    img: "../img/slider1.jpg",
-    title: "UP TO 30% SALE",
-    desc: "A world of inspiration for your home!",
+    img: "../img/cat_1.jpg",
+    title: "SOFA & CHAIR",
   },
   {
     id: 2,
-    img: "../img/slider2.jpg",
-    title: "UP TO 30% SALE",
-    desc: "A world of inspiration for your home!",
+    img: "../img/cat_2.jpg",
+    title: "COFFEE TABLE",
   },
   {
     id: 3,
-    img: "../img/slider3.jpg",
-    title: "UP TO 30% SALE",
-    desc: "A world of inspiration for your home!",
+    img: "../img/cat_3.jpg",
+    title: "LAMP & CANDELIER",
   },
 ];
