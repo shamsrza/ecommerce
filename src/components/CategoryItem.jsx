@@ -1,8 +1,9 @@
 import styled from "styled-components";
 const Container = styled.div`
+  display: flex;
   flex: 1;
   margin: 10px;
-  height: 70vh;
+  height: 60vh;
   position: relative;
 `;
 const Image = styled.img`
@@ -51,13 +52,15 @@ const Button = styled.button`
 
 const CategoryItem = ({ item }) => {
   return (
-    <Container>
-      <Image src={item.img} />
-      <Info>
-        <Title>{item.title}</Title>
-        <Button>SHOP NOW</Button>
-      </Info>
-    </Container>
+    <>
+      <Container>
+        <Image src={item.img} />
+        <Info>
+          <Title>{item.title}</Title>
+          <Button>SHOP NOW</Button>
+        </Info>
+      </Container>
+    </>
   );
 };
 
