@@ -29,7 +29,8 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f5fbfd;
+  //background-color: #f5fbfd;
+  //background-color: #ebf6f7;
   position: relative;
 
   &: hover ${Info} {
@@ -38,7 +39,7 @@ const Container = styled.div`
 `;
 
 const Image = styled.img`
-  height: 75%;
+  height: 55%;
   z-index: 2;
 `;
 

@@ -5,6 +5,7 @@ import {
   Categories,
   Products,
   Newsletter,
+  Footer,
 } from "../components";
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <Categories />
       <Products />
       <Newsletter />
+      <Footer />
     </div>
   );
 };

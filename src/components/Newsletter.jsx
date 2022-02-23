@@ -38,7 +38,6 @@ const Input = styled.input`
 const Button = styled.button`
   flex: 0.5;
   border: none;
-  border: none;
   cursor: pointer;
   background-color: red;
   color: white;

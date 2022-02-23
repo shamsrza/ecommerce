@@ -1,9 +1,12 @@
 import styled from "styled-components";
 const Container = styled.div`
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex: 1;
   margin: 10px;
-  height: 60vh;
+  height: 50vh;
+  min-width: 500px;
   position: relative;
 `;
 const Image = styled.img`
@@ -37,7 +40,7 @@ const Title = styled.h1`
 const Button = styled.button`
   border: none;
   border-radius: 5px;
-  padding: 10px 100px;
+  padding: 10px 30px;
   background-color: white;
   color: #404040;
   font-weight: 600;
